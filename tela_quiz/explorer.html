@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dificuldade</title>
+    <title>UNIVERSO QUIZ</title>
     <link rel="stylesheet" href="explorer.css">
 </head>
 <body>
@@ -34,7 +34,7 @@
 
                 <!-- QUIZ -->
                 <div class="tela" id="quiz-card">
-                    <img src="../Imagens/imgQuiz.jpg" alt="Quiz Programação">
+                    <img src="../Imagens/imgQuiz.png" alt="Quiz Programação">
                     <p>QUIZ PROGRAMAÇÃO 360°</p>
                 </div>
             
@@ -45,14 +45,14 @@
         <h2>Explore pelo universo do Quiz:<br></h2>
 
             <div class="explore">
-                <div class="tela" id="quiz-card">
-                    <img src="../Imagens/imgQuiz.jpg" alt="Quiz Programação">
-                    <p>QUIZ PROGRAMAÇÃO 360°</p>
+                <div class="tela" id="explorer-card">
+                    <img src="../Imagens/imgExplorar.png" alt="explorer">
+                    <p>EXPLORAR</p>
                 </div>
 
-                <div class="tela" id="quiz-card">
-                    <img src="../Imagens/imgQuiz.jpg" alt="Quiz Programação">
-                    <p>QUIZ PROGRAMAÇÃO 360°</p>
+                <div class="tela" id="criar-card">
+                    <img src="../Imagens/imgCriacao.png" alt="criar-quiz">
+                    <p>CRIAÇÃO</p>
                 </div>
             </div>
             
@@ -68,7 +68,18 @@
                 avatarMenu.setAttribute('src', avatarSalvo);
             }
         });
-    </script>
+</script>
+
+
+
+<script>
+    document.getElementById("explorer-card").addEventListener("click", function() {
+        window.location.href = "../quiz_comunidade/comunidade.html";
+    });
+</script>
+
+
+
 
 </body>
 </html>
