@@ -256,6 +256,7 @@ const questions = {
     const level = localStorage.getItem('selectedLevel');
     const currentQ = questions[level][currentQuestion];
   
+    // Atualiza a pergunta e opções
     document.getElementById("question").textContent = currentQ.question;
   
     const optionsContainer = document.getElementById("options");
@@ -267,6 +268,11 @@ const questions = {
       button.onclick = () => selectAnswer(index);
       optionsContainer.appendChild(button);
     });
+  
+    // Atualiza o contador de questão
+    const totalQuestions = questions[level].length;
+    const counterText = `Questão ${currentQuestion + 1} de ${totalQuestions}`;
+    document.getElementById("question-counter").textContent = counterText;
   
     resetTimer();
   }
