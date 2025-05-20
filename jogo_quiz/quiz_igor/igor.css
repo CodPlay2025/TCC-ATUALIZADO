@@ -16,22 +16,6 @@ body, html {
     justify-content: center;
     align-items: center;
   }
-
-  .voltar{ 
-    position: absolute;
-    top: 50px; /* Ajuste para alinhar com o título */
-    left: 10px;
-    display:inline-flex;
-    align-items: center;
-    gap: 10px;
-
-}
-
-.voltar:hover {
-    transform: scale(1.05);
-    transition: background 0.3s ease, transform 0.3s, box-shadow 0.3s;
-}
-
   
   /* Telas centrais */
   .screen {
