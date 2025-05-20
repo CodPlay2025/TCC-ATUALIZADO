@@ -410,7 +410,7 @@ const questions = {
   }
   
   function goToMenu() {
-    window.location.href = "../modelo_dificuldade/explorer.html";
+    window.location.href = "../tela_quiz/explorer.html";
   }
   
   
