@@ -288,13 +288,13 @@ const questions = {
     const currentQ = questions[level][currentQuestion];
     const correct = currentQ.answer;
   
-    const feedback = document.getElementById("feedback");
+    /*const feedback = document.getElementById("feedback");
     feedback.classList.remove("hidden");
     feedback.textContent = selected === correct ? "✅ ACERTOU!" : "❌ ERROU!";
     feedback.style.color = selected === correct ? "green" : "red";
     feedback.style.fontWeight = "bold";
     feedback.style.fontSize = "1.5rem";
-    feedback.style.textAlign = "center";
+    feedback.style.textAlign = "center";*/
   
     if (selected === correct) {
       score++;
@@ -302,7 +302,18 @@ const questions = {
   
     // Desativa os botões para evitar múltiplos cliques
     const buttons = document.querySelectorAll("#options button");
-    buttons.forEach(btn => btn.disabled = true);
+    buttons.forEach((btn, i) => {
+      btn.disabled = true;
+      if (i === correct) {
+        btn.style.backgroundColor = "#4CAF50"; // verde
+        btn.style.color = "#fff";
+      } else if (i === selected) {
+        btn.style.backgroundColor = "#f44336"; // vermelho
+        btn.style.color = "#fff";
+      } else {
+        btn.style.opacity = 0.6;
+      }
+    });
   
     // Vai para próxima pergunta depois de um tempo
     setTimeout(() => {
