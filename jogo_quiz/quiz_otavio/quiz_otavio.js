@@ -2,61 +2,61 @@ const questions = {
     hard: [
       {
         question: "1. Quantos tipos de Pneus existem nas corridas de F1?",
-        image: "../Imagens/imgOtavio1.png", // caminho da imagem
+        image: "../../Imagens/imgOtavio1.png", // caminho da imagem
         options: ["a) 3 - macio, médio e duro", "b) 2 - macio e duro ", "c) 1 - macio", "d) 1 - apenas um tipo para todos"],
         answer: 0
       },
       {
         question: "2. Quantos pilotos existem por equipes?",
-        image: "../Imagens/imgOtavio2.png", // caminho da imagem
+        image: "../../Imagens/imgOtavio2.png", // caminho da imagem
         options: ["a) 1 ", "b) 2 ", "c) 3 ", "d) 4 "],
         answer: 1
       },
       {
         question: "3. Qual o piloto com o maior número de vitórias?",
-        image: "../Imagens/imgOtavio3.jpg", // caminho da imagem
+        image: "../../Imagens/imgOtavio3.jpg", // caminho da imagem
         options: ["a)Max Verstappen ", "b) Lewis Hamilton ", "c) Michael Schumacher", "d) Ayrton Senna "],
         answer: 1
       },
       {
         question: "4. Qual o piloto mais novo a obter uma vitória em um Grand Prix de F1?",
-        image: "../Imagens/imgOtavio4.jpg", // caminho da imagem
+        image: "../../Imagens/imgOtavio4.jpg", // caminho da imagem
         options: ["a) Kimi Antonelli ", "b) Gabriel Bortoleto ", "c) Max Verstappen ", "d) Charles Leclerc "],
         answer: 2
       },
       {
         question: "5. Somente dois pilotos detém o recorde de mais títulos mundiais. Quais são eles?",
-        image: "../Imagens/imgOtavio5.jpg", // caminho da imagem
+        image: "../../Imagens/imgOtavio5.jpg", // caminho da imagem
         options: ["a) Verstappen e Senna ", "b) Prost e Fangio ", "c) Vettel e Verstappen ", "d) Hamilton e Schumacher "],
         answer: 3
       },
       {
         question: "6. Qual circuito é considerado pelos pilotos a corrida mais difícil do calendário? ",
-        image: "../Imagens/imgOtavio6.png", // caminho da imagem
+        image: "../../Imagens/imgOtavio6.png", // caminho da imagem
         options: ["a) Mônaco ", "b) Bahrein ", "c) São Paulo ", "d) Bélgica "],
         answer: 0
       },
       {
         question: "7. Quantos cavalos um carro de fórmula 1 possui? ",
-        image: "../Imagens/imgOtavio7.png", // caminho da imagem
+        image: "../../Imagens/imgOtavio7.png", // caminho da imagem
         options: ["a) 1000cv ", "b) 500cv + 100cv(elétrico) ", "c) 900cv + 110cv(elétrico) ", "d) 1cv"],
         answer: 2
       },
       {
         question: "8. Quantas voltas tem o GP de São Paulo? ",
-        image: "../Imagens/imgOtavio8.jpg", // caminho da imagem
+        image: "../../Imagens/imgOtavio8.jpg", // caminho da imagem
         options: ["a) 71 voltas ", "b) 50 voltas ", "c) 61 voltas ", "d) 10 voltas "],
         answer: 0
       },
       {
         question: "9. Qual o nome do primeiro campeão mundial de fórmula 1? ",
-        image: "../Imagens/imgOtavio9.png", // caminho da imagem
+        image: "../../Imagens/imgOtavio9.png", // caminho da imagem
         options: ["a) Giuseppe Farina", "b) Juan Manuel Fangio ", "c) Niki Lauda ", "d) Clay Regazzoni "],
         answer: 0
       },
       {
         question: "10. O que é uma Pole Position? ",
-        image: "../Imagens/imgOtavio10.png", // caminho da imagem
+        image: "../../Imagens/imgOtavio10.png", // caminho da imagem
         options: ["a) Quando um piloto ganha uma corrida ", "b) Quando o piloto abandona a corrida ", "c) Quando um piloto toma uma punição ", "d) Quando o piloto faz a volta mais rapida na Classificação "],
         answer: 3
       }

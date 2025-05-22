@@ -24,6 +24,17 @@ body {
   text-align: center;
 }
 
+.voltar{ 
+  position: absolute;
+  top: 50px; /* Ajuste para alinhar com o título */
+  left: 10px;
+  display:inline-flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+
 .hidden {
   display: none;
 }
